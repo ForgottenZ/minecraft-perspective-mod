@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraft_perspective_mod",
+  "version": "${version}",
+  "name": "Minecraft Perspective Mod",
+  "description": "Enable spectator player outlines in all game modes.",
+  "authors": ["OpenAI"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "minecraft_perspective_mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.3"
+  }
+}
